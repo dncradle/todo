@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">할일</div>
+        <div class="box">
+
+            <div class="input">
+                <button class="completeBtn">☆</button>
+                <input type="text" class="todoInput" placeholder="여기다 적으셈">
+            </div>
+            
+            <ul class="list">
+               <li class="check">
+                    <div class="checkbox"></div>
+                    <div class="todo">할일1</div>
+                    <button class="delBtn">x</button>
+               
+            </ul>
+            <div class="bottom">
+                <div class="left-items"> 개 남음</div>
+                <div class="button-group">
+                    <button class="show-all-btn selected" data-type="all">전체</button>
+                    <button class="show-active-btn" data-type="active">활성</button>
+                    <button class="show-completed-btn" data-type="completed">완료</button>
+                </div>
+                <button class="clearBtn">완료목록 삭제</button>
+            </div>
+        </div>
+      
+       
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
